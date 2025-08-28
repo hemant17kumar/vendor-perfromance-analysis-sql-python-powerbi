@@ -69,7 +69,7 @@ vendor-performance-analysis/
 │   └── get_vendor_summary.py
 │
 ├── dashboard/                  # Power BI dashboard file
-│   └── vendor_performance_dashboard.pbix
+│   └── vendor_performance_analysis_dashboard.pbix
 ```
 
 ---
@@ -127,7 +127,7 @@ vendor-performance-analysis/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/vendor-performance-analysis.git
+git clone https://github.com/hemant17kumar/vendor-performance-analysis.git
 ```
 3. Load the CSVs and ingest into database:
 ```bash
@@ -141,7 +141,7 @@ python scripts/get_vendor_summary.py
    - `notebooks/exploratory_data_analysis.ipynb`
    - `notebooks/vendor_performance_analysis.ipynb`
 6. Open Power BI Dashboard:
-   - `dashboard/vendor_performance_dashboard.pbix`
+   - `dashboard/vendor_performance_analysis_dashboard.pbix`
 
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
